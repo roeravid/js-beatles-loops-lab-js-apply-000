@@ -68,14 +68,29 @@ describe('iLoveTheBeatles', function() {
 
 function iLoveTheBeatles(y) //declare function
 {
+<<<<<<< HEAD
     var emptyArray = []; //declare empty array
   do{
      emptyArray.push('I love the Beatles!'); //assign the string to variable
     
      y++; //increment parameter
+=======
+    var emptyArray = []; //declare array
+  do{
+     emptyArray.push('I love the Beatles!'); //assign the string to variable 0
+    
+     y++; //increment array location
+>>>>>>> 4e2052401e2e25e6286e2446a93b0cb7c8131e56
     
     }
   while (y < 15); //check to see if requirements met
   
+<<<<<<< HEAD
   return emptyArray; //print out the final
   }
+=======
+  }
+  return emptyArray; //print out the final
+}
+
+>>>>>>> 4e2052401e2e25e6286e2446a93b0cb7c8131e56
